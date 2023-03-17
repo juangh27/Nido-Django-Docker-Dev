@@ -1,0 +1,7 @@
+SECRET_KEY='django-insecure-0%$o*#u8dt&qvitph76(2e&(i-4t1_!$6qq+!g+61sg!z!tl1g'
+DEBUG=True
+
+## Super-User Credentials
+SUPER_USER_NAME = 'root'
+SUPER_USER_PASSWORD = 'root'
+SUPER_USER_EMAIL = 'admin@email.com'

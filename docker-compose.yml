@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  server:
+    volumes:
+      - ./server:/app
+
+    env_file:
+      - .env
+    build: ./server
+    ports:
+      - "8000:8000"
+  nginx:
+    build: ./nginx
+    volumes:
+      - ./server/static:/static
+    ports:
+      - "80:80"
+    depends_on:
+      - server

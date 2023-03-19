@@ -27,6 +27,8 @@
 [![Alt text](https://img.youtube.com/vi/_et7H0EQ8fY/0.jpg)](https://www.youtube.com/watch?v=_et7H0EQ8fY)
 
 
+### Antes de crear el contenedor renombrar ".envcopy" a ".env"
+
 ### Crear y correr contenedor
 
 ``` docker-compose up --build ```

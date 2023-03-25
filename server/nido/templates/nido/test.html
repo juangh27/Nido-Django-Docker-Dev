@@ -1,21 +1,23 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Django + Stripe Checkout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="{% static '/js/pagos.js' %}"></script> 
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <script src="https://js.stripe.com/v3/"></script> 
+</head>
+
 <body>
-
-    <h1>Aves</h1>
-
-
-    <ul>
-        {% for x in aves %}
-        <li>{{ x }}</li>
-        {% endfor %}
-    </ul>
-
-    <p>Ejemplo y uso basico de la carpeta estatica y funcion for en Django</p>
-
-
+    <section class="section">
+        <div class="container">
+            <button class="button is-primary" id="submitBtn">Purchase!</button>
+        </div>
+    </section>
 </body>
 
 </html>

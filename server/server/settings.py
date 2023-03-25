@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'server.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'nidodb',
+        'USER': 'postgres',
+        'PASSWORD': '1234Qwer',
+        'HOST': 'db',
+        'PORT': '5432',
     }
 }
 
@@ -117,8 +121,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 
+MEDIA_ROOT = '/media'
+MEDIA_URL = '/media/'
+
+
+
 STATIC_URL = '/static/'
-STATIC_ROOT = '/static'
+STATIC_ROOT = '/staticfiles/'
 
 STATICFILES_DIRS = [BASE_DIR / "static"]
 # Default primary key field type

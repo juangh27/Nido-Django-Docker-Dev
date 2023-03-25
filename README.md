@@ -74,6 +74,11 @@
 
 
 
+//  manage.py makemigrations
+    manage.py migrate
+
+    docker exec -it nido_server sh
+
 
 
 

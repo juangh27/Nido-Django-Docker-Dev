@@ -93,3 +93,7 @@ def stripe_webhook(request):
         # TODO: run some custom code here
 
     return HttpResponse(status=200)
+
+
+def apadrinamiento(request):
+    return render(request, 'nido/apadrinamiento.html')

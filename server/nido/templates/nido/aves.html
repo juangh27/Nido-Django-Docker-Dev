@@ -1,0 +1,333 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/Style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/aves.css' %}">
+    <title>El Nido</title>
+    <!-- <style type="text/css">
+
+    </style> -->
+</head>
+
+<body>
+    <form id="form2" runat="server">
+        <div id="cabeza" class="cabeza">
+            <table class="style">
+                <tr>
+                    <td class="auto-style11">
+
+                        <img src="{% static 'img/logoo.jpg' %}" alt="Logo"
+                            style="margin-left: 0px; width: 158px; height: 150px;">
+
+                    </td>
+                    <td class="style2">
+                        &nbsp;
+                    </td>
+                    <td class="style3">
+                        <ul id="button">
+                            <li><a href="{% url 'nido:index' %}">&bull; Inicio</a></li>
+                            <li><a href="{% url 'nido:donativos' %}">&bull; Donativos</a></li>
+                            <li><a href="{% url 'nido:apadrinamiento' %}">&bull; Apadrinamiento </a></li>
+                            <li><a href="{% url 'nido:sesion' %}">&bull; Sesión </a></li>
+                        </ul>
+                    </td>
+
+
+                </tr>
+            </table>
+        </div>
+
+        <table class="style1">
+            <tr>
+                <td class="auto-style7">
+                    <div style="padding-top:70px;">
+                        <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="{% static 'img/ojo.jpg' %}" width="1257px" height="497px" alt="ojo" />
+                        </center>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+        <div id="felinos" style="padding-top:40px;">
+            <table style="padding-right:20px;">
+                <tr>
+                    <td style="padding-right:100px" class="auto-style9">
+                        &nbsp;
+                    </td>
+                    <td class="Cajita" ; <caption style="font-family: 'Bahnschrift Light'; font-weight: bolder;">
+                        <h2>&nbsp;</h2>
+                        <h2>•Flamencos &bull;</h2>
+                        </caption>
+                        <img src="{% static 'img/Flamenco.jpg' %}" height="145px" width="170px" alt="Flamenco">
+                        <p>
+                            Nobre común:Flamenco</p>
+                        <p>
+                            Nombre cientifico: Phoenicopterus</p>
+                        <p>
+                            Clase: Aves</p>
+                        <p>
+                            Alimentación: Carnívoro
+                        </p>
+                        <p>
+                            Promedio de vida en la naturaleza: 16 - 18 años</p>
+                        <p>
+                            Altura: 1.5 m</p>
+                        <br />
+                    </td>
+                    <td style="padding-left:30px">
+                        &nbsp;
+                    </td>
+                    <td class="Cajita" ; <caption style=" font-family: 'Bahnschrift Light' ; font-weight: bolder;">
+                        <h2>&bull;Tucan•</h2>
+                        </caption>
+                        <img src="{% static 'img/tucan.png' %}" height="145px" width="170px" />
+
+                        <p>
+                            Nobre común:Tucan</p>
+                        <p>
+                            Nombre cientifico: Ramphastos toco</p>
+                        <p>
+                            Clase: Aves</p>
+                        <p>
+                            Alimentación: Omnivoro
+                        </p>
+                        <p>
+                            Promedio de vida en la naturaleza: 18 - 20 años</p>
+                        <p>
+                            Peso: 620 g </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style9"></td>
+                </tr>
+                <tr>
+                    <td style="padding-right:100px" class="auto-style9">
+                        &nbsp;
+                    </td>
+                    <td class="Cajita" ; <caption style="font-family: 'Bahnschrift Light'; font-weight: bolder;">
+                        <h2>&nbsp;</h2>
+                        <h2>•Pajaro León &bull;</h2>
+                        </caption>
+                        <img src="{% static 'img/pajaro.jpg' %}" runat="server" ImageUrl="~/img/pajaro.jpg"
+                            Height="145px" Width="170px" />
+                        <p>
+                            Nobre común:Pajaro León</p>
+                        <p>
+                            Nombre cientifico: Momotus momota
+                        </p>
+                        <p>
+                            Clase: Aves</p>
+                        <p>
+                            Alimentación: Carnívoro
+                        </p>
+                        <p>
+                            Promedio de vida en la naturaleza: 12 - 15 años</p>
+                        <p>
+                            Peso: 1.2 kg
+                        </p>
+                        <br />
+                    </td>
+                    <td style="padding-left:30px">
+                        &nbsp;
+                    </td>
+                    <td class="Cajita" ; <caption style=" font-family: 'Bahnschrift Light' ; font-weight: bolder;">
+                        <h2>&bull;Garza•</h2>
+                        </caption>
+                        <img src="{% static 'img/garza.png' %}" height="145px" width="170px" />
+                        <p>
+                            Nombre cientifico: Ardeidade </p>
+                        <p>
+                            Clase: Aves</p>
+                        <p>
+                            Alimentación: Carnívoro
+                        </p>
+                        <p>
+                            Numero de huevos : 2- 5</p>
+                        <p>
+                            Promedio de vida en la naturaleza: 12 - 15 años</p>
+                        <p>
+                            Peso: 1.5 kg
+                        </p>
+                    </td>
+                </tr>
+                &nbsp;
+                &nbsp;
+                <tr>
+                    <td class="auto-style9"></td>
+                </tr>
+                <tr>
+                    <td style="padding-right:100px" class="auto-style9">
+                        &nbsp;
+                    </td>
+                    <td class="Cajita" ; <caption style="font-family: 'Bahnschrift Light'; font-weight: bolder;">
+                        <h2>&nbsp;</h2>
+                        <h2>•Faisán Dorado &bull;</h2>
+                        </caption>
+                        <img src="{% static 'img/faisan.png' %}" runat="server" ImageUrl="~/img/faisan.png"
+                            height="145px" width="170px" />
+                        <p>
+                            Nobre común:Faisán</p>
+                        <p>
+                            Nombre cientifico: Crhysolophus pictus </p>
+                        <p>
+                            Clase: Aves</p>
+                        <p>
+                            Número de huevos: 8 - 12</p>
+                        <p>
+                            Promedio de vida en la naturaleza: 3 - 5 años</p>
+                        <p>
+                            Peso: 550 g </p>
+                        <br />
+                    </td>
+                    <td style="padding-left:30px">
+                        &nbsp;
+                    </td>
+                    <td class="Cajita" ; <caption style=" font-family: 'Bahnschrift Light' ; font-weight: bolder;">
+                        <h2>•Búho•</h2>
+                        </caption>
+                        <img src="{% static 'img/buho.jpg' %}" runat="server" height="145px" width="170px" />
+                        <p>
+                            Nombre cientifico: Strigiformes </p>
+                        <p>
+                            Clase: Aves</p>
+                        <p>
+                            Alimentación: Carnívoro, puede cazar en la oscuridad</p>
+                        <p>
+                            Se caracaterizan por hacer el mínimo de ruido mientras agarran a su presa</p>
+                        <p>
+                            Promedio de vida en la naturaleza: 13 - 15 años</p>
+                        <p>
+                            Peso: 2.7 kg
+                        </p>
+                    </td>
+                </tr>
+                &nbsp;
+                &nbsp;
+                <tr>
+                    <td class="auto-style9"></td>
+                </tr>
+                <tr>
+                    <td style="padding-right:100px" class="auto-style9">
+                        &nbsp;
+                    </td>
+                    <td class="Cajita" ; <caption style="font-family: 'Bahnschrift Light'; font-weight: bolder;">
+                        <h2>&nbsp;</h2>
+                        <h2>•Águila•</h2>
+                        </caption>
+                        <img src="{% static 'img/Buteo.png' %}" height="145px" width="170px" />
+                        <p>
+                            Nombre cientifico: Accipitridae
+                        </p>
+                        <p>
+                            Clase: Aves</p>
+                        <p>
+                            Velocidad: 320 km/h</p>
+                        <p>
+                            Alimentación: Carnívoro
+                        </p>
+                        <p>
+                            Promedio de vida en la naturaleza: 20 - 30 años</p>
+                        <p>
+                            Peso: 3.6&nbsp; -6.7 kg</p>
+                        <br />
+                    </td>
+                    <td style="padding-left:30px">
+                        &nbsp;
+                    </td>
+                    <td class="Cajita" ; <caption style=" font-family: 'Bahnschrift Light' ; font-weight: bolder;">
+                        <h2>&bull;Guacamayas•</h2>
+                        </caption>
+                        <img src="{% static 'img/guacamaya.jpg' %}" height="145px" width="170px" alt="guacamaya" />
+                        <p>
+                            Nombre cientifico: Ara</p>
+                        <p>
+                            Clase: Aves</p>
+                        <p>
+                            Alimentación: Omnívoro
+                        </p>
+                        <p>
+                            Numero de huevos : 2- 5</p>
+                        <p>
+                            Promedio de vida en la naturaleza: 30 años</p>
+                        <p>
+                            Peso: 1 kg
+                        </p>
+                    </td>
+                </tr>
+                &nbsp;
+                &nbsp;
+                <tr>
+                    <td class="auto-style9"></td>
+                </tr>
+                <tr>
+                    <td style="padding-right:100px" class="auto-style9">
+                        &nbsp;
+                    </td>
+                    <td class="Cajita" ; <caption style="font-family: 'Bahnschrift Light'; font-weight: bolder;">
+                        <h2>&nbsp;</h2>
+                        <h2>•Aguila•</h2>
+                        </caption>
+                        <img src="{% static 'img/gali.jpg' %}" height="145px" width="170px" alt="gali" />
+                        <p>
+                            Nobre común:Pajaro León</p>
+                        <p>
+                            Nombre cientifico: Momotus momota
+                        </p>
+                        <p>
+                            Clase: Aves</p>
+                        <p>
+                            Alimentación: Carnívoro
+                        </p>
+                        <p>
+                            Promedio de vida en la naturaleza: 12 - 15 años</p>
+                        <p>
+                            Peso: 1.2 kg
+                        </p>
+                        <br />
+                    </td>
+                    <td style="padding-left:30px">
+                        &nbsp;
+                    </td>
+                    <td class="Cajita" ; <caption style=" font-family: 'Bahnschrift Light' ; font-weight: bolder;">
+                        <h2>&bull;Pavo Real•</h2>
+                        </caption>
+                        <img src="{% static 'img/pavito.png' %}"  runat="server" ImageUrl="~/img/pavito.png" Height="145px"
+                            Width="170px" />
+                        <p>
+                            Nombre cientifico: Pavo cristatus </p>
+                        <p>
+                            Clase: Aves</p>
+                        <p>
+                            Alimentación: Omnívoro
+                        </p>
+                        <p>
+                            Numero de huevos : 3 - 12</p>
+                        <p>
+                            Promedio de vida en la naturaleza: 12 - 15 años</p>
+                        <p>
+                            Peso: 4 - 6 kg
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </form>
+
+    <footer class="footer">
+        <h1> Gracias por tu interes</h1>
+        <h4 class="auto-style8" style="font-family: 'Comic Sans MS'"> <em>Tratando de mejorar el mundo de ellos </em>
+        </h4>
+        <h4> Contactanos Tel (55) 1737 8304 </h4>
+        <h5> <span style="letter-spacing:0.3em">© 2023 Proudly created www.elnido.mx</span></h5>
+    </footer>
+
+</body>
+
+</html>

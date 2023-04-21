@@ -1,0 +1,201 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/Style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/apadrinamiento.css' %}">
+</head>
+<title></title>
+
+</head>
+
+<body>
+    <form id="form2" runat="server">
+        <div class="auto-style13">
+            <div id="cabeza" class="cabeza">
+                <table class="style">
+                    <tr>
+                        <td class="auto-style11">
+
+                            <img src="{% static 'img/logoo.jpg' %}" alt="Logo"
+                                style="margin-left: 0px; width: 158px; height: 150px;">
+
+                        </td>
+                        <td class="style2">
+                            &nbsp;</td>
+                        <td class="style3">
+                            <ul id="button">
+                                <li><a href="{% url 'nido:index' %}">&bull; Inicio</a></li>
+                                <li><a href="{% url 'nido:donativos' %}">&bull; Donativos</a></li>
+                                <li><a href="{% url 'nido:apadrinamiento' %}">&bull; Apadrinamiento </a></li>
+                                <li><a href="{% url 'nido:sesion' %}">&bull; Sesión </a></li>
+                            </ul>
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+
+            <table class="style1">
+                <tr>
+                    <td class="auto-style1">
+                        <div style="padding-top:70px;">
+                            <center>
+                                <img src="{% static 'img/ayuda.jpg' %}" width="1200px">
+                            </center>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <div>
+                <p class="auto-style17" style="font-family: 'Comic Sans MS'">
+                    Nuestro santuario de aves ha sido por mas de 50 años el hogar
+                    de muchas especies únicas y hermosas, algunas de ellas en peligro de
+                    extinción, los recursos para cuidarlas se agotan, poniendo en riesgo
+                    la subsistencia de estas increíbles especies.
+
+                </p>
+                <p class="auto-style17" style="font-family: 'Comic Sans MS'">
+                    Las autoridades metropolitanas clausuraron el santuario desde septiembre
+                    de 2022 debido a la falta de documentos que no teniamos a la mano,
+                    mismos que ya fueron entregados en tiempo y forma a la autoridad y sin embargo,
+                    no nos han permitido reabrir nuestras puertas.
+
+                </p>
+                <p class="auto-style17" style="font-family: 'Comic Sans MS'">
+                    Para seguir protegiendolas y brindarles el cuidado que necesitan,
+                    hacemos un llamado desesperado a la sociedad civil y a todas las ppersonas
+                    que conocen esta obra para pedir su apoyo, ya sea con una donacion monetaria
+                    o con frutas frescas en nuestros centros de acopio, cada contribución cuenta.
+                </p>
+            </div>
+
+            <div>
+                <table>
+                    <tr>
+                        <td class="auto-style8">
+
+                            <center>
+                                <h1 style="font-family: 'Comic Sans MS'"><em>¿Qué significa Apadrinar a un animal?</em>
+                                </h1>
+                                <p class="auto-style7" style="font-family: 'Comic Sans MS'">
+                                    Significa ayudar al mantenimiento de las especies que viven en El Nido y seguir
+                                    ofreciendo un entorno seguro y saludable para estas aves
+                                    en peligro y trabajar juntos para asegurar un futuro mejor para ellas y lograr el
+                                    sueño de que regresen a su verdadero hogar, los bosques y selvas del mundo. </p>
+                            </center>
+
+                        </td>
+                    </tr>
+                </table>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <table>
+
+                    <tr>
+                        <td class="auto-style14">
+
+                            <h2 class="auto-style12"
+                                style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Plata
+                            </h2>
+                            <p style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Coste
+                                apadrinamoento:&nbsp; $350 al mes por un ave</p>
+                            <p style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Diploma
+                                acreditativo, a nomnre del padrin@</p>
+                            <p style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Ficha
+                                descriptiva y fotografia de la especie apadrinada</p>
+                            <p style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">
+                                <img src="{% static 'img/Plata.png' %}" height="188px" width="243px" alt="Plata" />
+                            </p>
+
+
+                        </td>
+                        <td class="auto-style14">
+                            <h2 class="auto-style12"
+                                style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">
+                                &nbsp;</h2>
+                            <h2 class="auto-style12"
+                                style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Oro</h2>
+                            <p style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Coste
+                                apadrinamoento:&nbsp; $5,000 de cinco aves por tres meses
+                            <p style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Diploma
+                                acreditativo, a nomnre del padrin@</p>
+                            <p style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Ficha
+                                descriptiva y fotografia de la especie apadrinada</p>
+
+                            <p class="auto-style13"
+                                style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">1Vale
+                                para recoger un obse1Vale para recoger un obsequio de El Nido</p>
+                            <p class="auto-style13"
+                                style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">4
+                                Entradas gratuitas</p>
+                            <p class="auto-style13"
+                                style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">
+                                <img src="{% static 'img/Oro.png' %}" height="188px" width="243px" alt="Oro"/>
+                            </p>
+                        </td>
+                        <td class="auto-style14">
+                            <h2 class="auto-style12"
+                                style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Bronce
+                            </h2>
+                            <p style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Coste
+                                apadrinamoento:&nbsp; $1,000 de un ave por tres meses
+                            <p style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Diploma
+                                acreditativo, a nomnre del padrin@</p>
+                            <p style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">Ficha
+                                descriptiva y fotogrFicha descriptiva y fotografia de la especie apadrinada</p>
+
+                            <p class="auto-style13"
+                                style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">2
+                                Entradas gratuidas</p>
+                            <p class="auto-style13"
+                                style="font-family: 'Comic Sans MS'; font-style: inherit; font-weight: bolder">
+                                <img src="{% static 'img/Bronce.png' %}"ID="Image4" height="188px" width="243px" alt="Bronce"/>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <div>
+                <img src="{% static 'img/tarjeta.png' %}" height="215px" width="336px" />
+              </div>
+              <div style="font-weight: bold" class="auto-style18">
+                <p class="auto-style17" style="font-family: 'Comic Sans MS'">
+                  Para recibir información del ave que estas protegiendo o canjear tu
+                  donativo por una experiencia en El Nido cuando la resolución de la
+                  autoridad haya sido favorable, por favor envia tu comprobante al
+                </p>
+                <p class="auto-style17" style="font-family: 'Comic Sans MS'">
+                  WhatsApp 55 6674 3314
+                </p>
+              </div>
+
+        </div>
+
+    </form>
+
+    <footer class="footer">
+        <h4 class="auto-style10" style="font-family: 'Comic Sans MS'"> <em>Tratando de mejorar el mundo de ellos </em>
+        </h4>
+        <h5> <span style="letter-spacing:0.3em">© 2023 Proudly created www.elnido.mx</span></h5>
+    </footer>
+</body>
+
+</html>

@@ -1,7 +1,18 @@
 version: '3.7'
 
 services:
+  server:
+    container_name: nido_server1
+    volumes:
+      - ./server:/app
 
+    env_file:
+      - .env
+    build: ./server
+    ports:
+      - "8002:8000"
+    depends_on:
+      - db
 
   db:
     image: postgres
@@ -12,32 +23,16 @@ services:
     volumes:
       - .postgres_data:/var/lib/postgresql/data/
     ports:
-      - "5435:5432"
-
-  server:
-    container_name: nido_server
-    volumes:
-      - ./server:/app
-
-    env_file:
-      - .env
-    build: ./server
-    ports:
-      - "8000:8000"
-    depends_on:
-      - db
-    
-    
+      - "5436:5432"
 
   nginx:
     build: ./nginx
     volumes:
-      - static:/static
+      - ./server/static:/static
     ports:
-      - "80:80"
+      - "81:80"
     depends_on:
       - server
 
 volumes:
   postgres_data:
-  static:

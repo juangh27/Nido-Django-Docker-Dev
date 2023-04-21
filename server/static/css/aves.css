@@ -1,0 +1,80 @@
+/*.angled-gradient {*/
+/*background: linear-gradient(99deg, #4b9728 , white);*/
+/*width: 100%;
+                height:100%;
+                border-radius: 5px;
+                margin: 0px;
+                box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+                padding: 2%;
+                background-image: linear-gradient(-225deg, #64b512 50%, #8bd63e 50%);
+        }*/
+        .style {
+            width: 100%
+        }
+        
+        .style1 {
+            width: auto;
+        }
+        
+        .style2 {
+            width: 435px;
+        }
+        
+        .style3 {
+            width: 50%;
+        }
+        
+        .button {
+            padding: 0;
+            display: block;
+        }
+        
+        .footer {
+            height: 4rem;
+        
+            justify-content: center;
+        }
+        
+        .footer h1,
+        h4 {
+            font-size: 20px;
+            font-family: Arial;
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .footer h5 {
+            font-size: 15px;
+            font-family: Britannic;
+            text-align: center;
+        }
+        
+        .auto-style8 {
+            font-size: xx-large;
+        }
+        
+        .styleh2 {
+            font-size: 60px;
+            font-family: 'Book Antiqua';
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .formu {
+            border: 8px #cca074 solid;
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-top: 70;
+            margin-bottom: 70px;
+        }
+        
+        .auto-style9 {
+            width: 63px;
+        }
+        
+        .auto-style11 {
+            width: auto;
+            text-align: center;
+        }
